@@ -5,7 +5,6 @@
 I stand up security-compliance functions from zero and run them as infrastructure, not paperwork — controls defined once and rendered per framework, evidence pulled from systems of record, policy checks enforced in CI behind human-approval gates. I've owned SOC 2 Type II, ISO 27001, and HIPAA audit lifecycles end to end, and the customer-facing side too: security questionnaires, trust collateral, and third-party risk that keep enterprise deals moving.
 
 📍 North Carolina · remote / Eastern Time
-🔗 [LinkedIn](https://www.linkedin.com/in/tiffanidickerson/)
 
 ---
 
