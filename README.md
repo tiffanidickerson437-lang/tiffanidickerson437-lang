@@ -1,16 +1,16 @@
-## Hi there 👋
+### Tiffani Dickerson
 
-<!--
-**tiffanidickerson437-lang/tiffanidickerson437-lang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**GRC program builder — SOC 2 · ISO 27001 / 27701 · HIPAA · AI governance · compliance as code.**
 
-Here are some ideas to get you started:
+I stand up security-compliance functions from zero and run them as infrastructure, not paperwork — controls defined once and rendered per framework, evidence pulled from systems of record, policy checks enforced in CI behind human-approval gates. I've owned SOC 2 Type II, ISO 27001, and HIPAA audit lifecycles end to end, and the customer-facing side too: security questionnaires, trust collateral, and third-party risk that keep enterprise deals moving.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📍 North Carolina · remote / Eastern Time
+🔗 [LinkedIn](https://www.linkedin.com/in/tiffanidickerson/)
+
+---
+
+#### 📌 [compliance-program](https://github.com/tiffanidickerson437-lang/compliance-program) — GRC, as code
+
+A framework-agnostic GRC engine that lives in Git: one control set rendered into every framework (SOC 2, ISO 27001, NIST 800-53, HIPAA, PCI, GDPR, ISO 42001, NIST AI RMF). Rego policy-as-code with paired tests, drift monitoring, and evidence validation running as GitHub Actions — the drift → issue → PR loop runs in CI, behind human-approval gates. Evidence is computed from systems of record; the schema rejects AI-authored evidence.
+
+**Agents draft. A human decides.**
