@@ -10,6 +10,10 @@ I stand up security-compliance functions from zero and run them as infrastructur
 
 #### 📌 [compliance-program](https://github.com/tiffanidickerson437-lang/compliance-program) — GRC, as code
 
-A framework-agnostic GRC engine that lives in Git: one control set rendered into every framework (SOC 2, ISO 27001, NIST 800-53, HIPAA, PCI, GDPR, ISO 42001, NIST AI RMF). Rego policy-as-code with paired tests, drift monitoring, and evidence validation running as GitHub Actions — the drift → issue → PR loop runs in CI, behind human-approval gates. Evidence is computed from systems of record; the schema rejects AI-authored evidence.
+[![Scaffold](https://github.com/tiffanidickerson437-lang/compliance-program/actions/workflows/scaffold.yml/badge.svg)](https://github.com/tiffanidickerson437-lang/compliance-program/actions/workflows/scaffold.yml)
+[![FAIR Simulation Test](https://github.com/tiffanidickerson437-lang/compliance-program/actions/workflows/fair-simulation.yml/badge.svg)](https://github.com/tiffanidickerson437-lang/compliance-program/actions/workflows/fair-simulation.yml)
+[![Policy Tests](https://github.com/tiffanidickerson437-lang/compliance-program/actions/workflows/policy-tests.yml/badge.svg)](https://github.com/tiffanidickerson437-lang/compliance-program/actions/workflows/policy-tests.yml)
 
-**Agents draft. A human decides.**
+A framework-agnostic GRC engine that lives in Git: a 45-control Living Control Set (SCF 2026.1-mapped, OSCAL-native — catalog, 12 framework profiles, and a System Security Plan all validated in CI) rendered into every regime in scope: SOC 2, ISO 27001, NIST 800-53, GDPR, COPPA, ISO 42001, NIST AI RMF, EU AI Act. Risk is quantified, not color-coded: a FAIR Monte Carlo engine turns the risk register into loss-exceedance curves and ALE percentiles on every pull request. Framework coverage is computed by a set-theory mapping linter, never asserted. Rego policy-as-code with paired tests, drift monitoring that opens real GitHub Issues, and evidence validation run as GitHub Actions — the drift → Issue → PR loop runs in CI, behind human-approval gates. Evidence is computed from systems of record; the schema and a pre-tool-use hook both reject AI-authored evidence.
+
+**Agents draft. A human decides.** The engine itself was built that way — AI drafted every unit, a human approved every merge: [how I built this with AI](https://github.com/tiffanidickerson437-lang/compliance-program/blob/main/docs/how-i-built-this-with-ai.md).
